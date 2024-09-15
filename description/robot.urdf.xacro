@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
 
-    <!-- Example link -->
-    <link name="base_link"></link>
+  <!-- Include the robot_core.xacro file -->
+  <xacro:include filename="$(find pi_bot_2)/description/robot_core.xacro" />
 
 </robot>
