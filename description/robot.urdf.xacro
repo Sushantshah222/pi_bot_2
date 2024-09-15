@@ -3,5 +3,7 @@
 
   <!-- Include the robot_core.xacro file -->
   <xacro:include filename="$(find pi_bot_2)/description/robot_core.xacro" />
+  <xacro:include filename="$(find pi_bot_2)/description/gazebo_control.xacro" />
+
 
 </robot>
